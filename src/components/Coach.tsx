@@ -1,6 +1,5 @@
 import React from 'react';
 import { Section } from './Section';
-import { Placeholder } from './Placeholder';
 
 export const Coach: React.FC = () => {
   return (
@@ -14,7 +13,7 @@ export const Coach: React.FC = () => {
             <span className="text-accent text-lg font-bold uppercase tracking-widest block mb-2">Head Coach</span>
             <h3 className="text-4xl md:text-6xl font-black italic uppercase leading-none tracking-tighter">
               Jose Miguel Dominguez <br />
-              <span className="text-accent">"El Pony"</span>
+              <span className="text-accent">&quot;El Pony&quot;</span>
             </h3>
           </div>
           

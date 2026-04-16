@@ -1,5 +1,4 @@
 import React from 'react';
-import { Placeholder } from './Placeholder';
 
 export const Footer: React.FC = () => {
   return (
@@ -8,7 +7,7 @@ export const Footer: React.FC = () => {
         <div>
           <img src="/assets/logos/LOGO2.png" alt="King7 Logo" className="h-24 w-auto object-contain mb-8 grayscale hover:grayscale-0 transition-all duration-500" />
           <p className="text-neutral-400 leading-relaxed max-w-sm italic">
-            "Donde se forjan los atletas del mañana. Fuerza, disciplina y comunidad."
+            &quot;Donde se forjan los atletas del mañana. Fuerza, disciplina y comunidad.&quot;
           </p>
         </div>
         

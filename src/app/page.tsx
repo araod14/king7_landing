@@ -5,6 +5,7 @@ import { Coach } from '@/components/Coach';
 import { Gallery } from '@/components/Gallery';
 import { Pricing } from '@/components/Pricing';
 import { Events } from '@/components/Events';
+import { FAQ } from '@/components/FAQ';
 import { Footer } from '@/components/Footer';
 import { StickyCTA } from '@/components/StickyCTA';
 import { WhatsAppButton } from '@/components/WhatsAppButton';
@@ -20,6 +21,7 @@ export default function Home() {
       <Gallery />
       <Pricing />
       <Events />
+      <FAQ />
       
       <Footer />
       

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Section } from './Section';
-import { Placeholder } from './Placeholder';
 
 export const Gallery: React.FC = () => {
   return (

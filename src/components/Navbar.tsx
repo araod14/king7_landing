@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Placeholder } from './Placeholder';
 
 export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,6 +11,7 @@ export const Navbar: React.FC = () => {
     { name: 'Nuestro Box', href: '#gallery' },
     { name: 'Tarifas', href: '#pricing' },
     { name: 'Eventos', href: '#events' },
+    { name: 'FAQ', href: '#faq' },
   ];
 
   return (

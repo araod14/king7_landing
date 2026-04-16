@@ -1,5 +1,4 @@
 import React from 'react';
-import { Placeholder } from './Placeholder';
 import { Button } from './Button';
 
 export const Hero: React.FC = () => {
