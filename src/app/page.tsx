@@ -3,6 +3,7 @@ import { Hero } from '@/components/Hero';
 import { Benefits } from '@/components/Benefits';
 import { Coach } from '@/components/Coach';
 import { Gallery } from '@/components/Gallery';
+import { Leaderboard } from '@/components/Leaderboard';
 import { Pricing } from '@/components/Pricing';
 import { Events } from '@/components/Events';
 import { FAQ } from '@/components/FAQ';
@@ -19,6 +20,7 @@ export default function Home() {
       <Benefits />
       <Coach />
       <Gallery />
+      <Leaderboard />
       <Pricing />
       <Events />
       <FAQ />
