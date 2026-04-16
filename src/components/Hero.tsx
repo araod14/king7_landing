@@ -5,13 +5,17 @@ import { Button } from './Button';
 export const Hero: React.FC = () => {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
-      {/* Background Hero Image - Outdoor Competition Style */}
-      <div className="absolute inset-0 z-0">
-        <img 
-          src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=2070" 
-          alt="KING7 BOXCROSS Competition Background" 
-          className="w-full h-full object-cover opacity-50" 
+      {/* Background Hero Video - Dynamic Action */}
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        <video
+          src="/assets/videos/video1.mp4"
+          className="w-full h-full object-cover opacity-40 scale-105"
+          autoPlay
+          loop
+          muted
+          playsInline
         />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
       </div>
 
       {/* Overlay Content */}
@@ -35,11 +39,11 @@ export const Hero: React.FC = () => {
         </div>
 
         <div className="flex flex-col md:flex-row gap-4">
-          <Button variant="primary" className="text-xl">
+          <Button variant="primary" className="text-xl" href="https://wa.me/584148380149">
             Entrena con Nosotros
           </Button>
-          <Button variant="outline" className="text-xl">
-            Ver Clases
+          <Button variant="outline" className="text-xl" href="#gallery">
+            Ver El Box
           </Button>
         </div>
       </div>
